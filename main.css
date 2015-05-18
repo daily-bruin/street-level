@@ -1,0 +1,172 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+#container {
+	position: absolute;
+	top: 800px;
+	left: 0;
+  	right: 0;
+  	margin: 0 auto;
+	width: 100%;
+	max-width: 940px;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+}
+
+.footer {
+	text-align: center;
+	padding: 2rem;
+	margin-top: 3rem;
+	margin-bottom: 0.5rem;
+	border-top: lightgrey solid thin;
+}
+
+video {
+	object-fit: fill;
+}
+
+header p.back {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin: 0;
+	padding: 0.7rem 1.5rem;
+	background-color: rgba(255,255,255,0.9);
+}
+
+#header-overlay {
+	position: absolute;
+	bottom: 60px;
+	width: 100%;
+	background-color: rgba(255,255,255,0.9);
+	text-align: center;
+	
+}
+#header-overlay img {
+	width: 100%;
+	max-width: 450px;
+}
+#header-overlay h2 {
+	font-size: 1.5rem;
+	margin: 1rem;
+	margin-top: -1rem;
+}
+#header-overlay p {
+	font-size: 1.3rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+h1,h2,h3 {
+	font-family: 'Roboto Slab';
+	color: #222;
+}
+
+a {
+	text-decoration: none;
+  	color: #003c82;
+  	box-shadow: inset 0 -1px 0 rgba(0, 128, 198, 0.4);
+  	border-bottom: 1px solid rgba(0, 128, 198, 0.4);
+}
+
+a:hover {
+	color: #0080c6;
+  	box-shadow: inset 0 -1px 0 rgba(0, 128, 198, 0.4);
+  	border-bottom: 1px solid rgba(0, 128, 198, 0.4);
+}
+
+#container p {
+	font-size: 1.1rem;
+	max-width: 640px;
+	padding-left: 3rem;
+	padding-right: 2.5rem;
+	margin-bottom: 1.6rem;
+}
+
+p:first-child:first-letter { 
+	float: left; 
+	color: #003c82; 
+	font-size: 5rem; 
+	line-height: 60px; 
+	padding-right: 12px; 
+	padding-bottom: 20px;
+	font-weight: thin;
+	/*margin-top: -10px;*/
+	font-family: "Roboto Slab"; 
+}
+
+#container h3 {
+	font-size: 1.5rem;
+	margin: 1.5rem;
+	margin-bottom: 0rem;
+	margin-left: 1rem;
+	border-top: #0080c6 medium solid;
+	display: inline-block;
+}
+
+#container .embed {
+	float: right;
+	max-width: 450px;
+	width: 90%;
+	padding: 1.5rem;
+	text-align: right;
+}
+
+#container .embed img {
+	width: 100%;
+}
+
+#container .embed p {
+	max-width: none;
+	padding: 0;
+	font-size: 1rem;
+	padding-left: 2rem;
+}
+#container .embed p.credit {
+	color: grey;
+	font-size: 0.8rem;
+	margin-bottom: 0.5rem;
+}
+
+#container .embed.wide{
+	max-width: none;
+	width: 90%;
+}
+
+#container blockquote {
+	float: right;
+	font-size: 1.7rem;
+	max-width: 350px;
+	line-height: 1.5;
+	font-style: italic;
+	font-family: 'Roboto Slab';
+}
+
+#container blockquote span.by {
+	display: block;
+	text-align: right;
+	font-style: normal;
+	font-size: 1.2rem;
+	font-family: 'Roboto';
+	margin-top: 1rem;
+}
+
+ul.line-legend {
+	list-style-type: none;
+	font-size: 0.85rem;
+}
+
+ul.line-legend span {
+	float: right;
+	width: 10px;
+  	height: 10px;
+  	margin-top: 3px;
+  	display: inline-block;
+  	margin-left: 10px;
+
+}
